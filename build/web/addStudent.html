@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            width: 400px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        label {
+            color: #fff;
+            font-size: 14px;
+            display: block;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.3);
+            color: #fff;
+            outline: none;
+        }
+
+        textarea {
+            resize: none;
+            height: 50px;
+        }
+
+        input::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        input[type="submit"] {
+            background: #ff4b5c;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background: #e8434f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Add Student</h2>
+        <form action="AddStudentServlet" method="post">
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="Enter Name" required>
+
+            <label>Enrollment Number:</label>
+            <input type="text" name="enrollment" placeholder="Enter Enrollment Number" required>
+
+            <label>Semester:</label>
+            <input type="text" name="semester" placeholder="Enter Semester" required>
+
+            <label>Department:</label>
+            <input type="text" name="department" placeholder="Enter Department" required>
+
+            <label>Date of Birth:</label>
+            <input type="date" name="dob" required>
+
+            <label>Email:</label>
+            <input type="email" name="gmail" placeholder="Enter Email" required>
+
+            <label>Phone Number:</label>
+            <input type="text" name="phone" placeholder="Enter Phone Number" required>
+
+            <label>Address:</label>
+            <textarea name="address" placeholder="Enter Address" required></textarea>
+
+            <label>Father's Name:</label>
+            <input type="text" name="fatherName" placeholder="Enter Father's Name" required>
+
+            <label>Father's Contact:</label>
+            <input type="text" name="fatherContact" placeholder="Enter Father's Contact" required>
+
+            <input type="submit" value="Add Student">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #4b6cb7, #182848);
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            width: 350px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            display: block;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.3);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 18px;
+            transition: 0.3s ease;
+        }
+
+        a:hover {
+            background: #ff4b5c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome, Admin!</h2>
+        <h3>Select an option:</h3>
+        <ul>
+            <li><a href="addStudent.html">➕ Add Student</a></li>
+            <li><a href="removeStudent.html">❌ Remove Student</a></li>
+            <li><a href="viewStudent.html">📄 View Student</a></li>
+        </ul>
+    </div>
+</body>
+</html>
