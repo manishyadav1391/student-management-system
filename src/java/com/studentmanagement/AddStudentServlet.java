@@ -30,18 +30,15 @@ public class AddStudentServlet extends HttpServlet {
         String address = request.getParameter("address");
         String fatherName = request.getParameter("fatherName");
         String fatherContact = request.getParameter("fatherContact");
-
-        Connection conn = null;
-        PreparedStatement stmt = null;
-
+        
         try {
           
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/StudentManagement", "root", "root");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/StudentManagement", "root", "root");
 
          
             String sql = "INSERT INTO students (name, enrollment_no, semester, department, dob, gmail, phone, address, father_name, father_contact) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-            stmt = conn.prepareStatement(sql);
+            PreparedStatement stmt = conn.prepareStatement(sql);
             stmt.setString(1, name);
             stmt.setString(2, enrollment);
             stmt.setString(3, semester);

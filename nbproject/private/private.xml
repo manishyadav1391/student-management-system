@@ -4,8 +4,6 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/web/index.html</file>
-            <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/src/java/com/studentmanagement/LoginServlet.java</file>
-            <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/web/editStudent.html</file>
             <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/web/removeStudent.html</file>
             <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/web/viewStudent.html</file>
             <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/src/java/com/studentmanagement/DBConnection.java</file>
@@ -14,7 +12,9 @@
             <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/src/java/com/studentmanagement/ViewStudentServlet.java</file>
             <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/src/java/com/studentmanagement/UpdateStudentServlet.java</file>
             <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/web/addStudent.html</file>
+            <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/src/java/com/studentmanagement/RemoveStudent.java</file>
             <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/src/java/com/studentmanagement/AdminLoginServlet.java</file>
+            <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/web/loginError.html</file>
             <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/src/java/com/studentmanagement/EditStudentServlet.java</file>
             <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/web/WEB-INF/web.xml</file>
             <file>file:/C:/Users/MANISH%20YADAV/OneDrive/Documents/NetBeansProjects/StudentManagementSystem/web/welcome.html</file>

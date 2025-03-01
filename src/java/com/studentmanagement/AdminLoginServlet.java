@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-@WebServlet("/AdminLogin")
+
 public class AdminLoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
@@ -35,7 +35,8 @@ public class AdminLoginServlet extends HttpServlet {
                 session.setAttribute("adminUser", username);
                 response.sendRedirect("welcome.html");
             } else {
-                out.println("Invalid username or password! <a href='index.html'>Try Again</a>");
+                response.sendRedirect("loginError.html"); 
+
             }
         } catch (SQLException e) {
             e.printStackTrace();

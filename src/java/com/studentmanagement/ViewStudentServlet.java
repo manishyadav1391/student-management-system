@@ -53,6 +53,7 @@ public class ViewStudentServlet extends HttpServlet {
                 out.println("<td>" + rs.getString("father_name") + "</td>");
                 out.println("<td>" + rs.getString("father_contact") + "</td>");
                 out.println("<td><a href='EditStudentServlet?enrollment=" + rs.getString("enrollment_no") + "'>Edit</a></td>");
+                 out.println("<td><a href='RemoveStudent?enrollment=" + rs.getString("enrollment_no") + "'>Remove</a></td>");
                 out.println("</tr>");
             }
             out.println("</table>");

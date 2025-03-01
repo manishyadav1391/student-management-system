@@ -8,7 +8,6 @@
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>com.studentmanagement.LoginServlet</servlet-class>
     </servlet>
-    
     <servlet>
         <servlet-name>RegisterAdminServlet</servlet-name>
         <servlet-class>com.studentmanagement.RegisterAdminServlet</servlet-class>
@@ -36,6 +35,10 @@
     <servlet>
         <servlet-name>UpdateStudentServlet</servlet-name>
         <servlet-class>com.studentmanagement.UpdateStudentServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RemoveStudent</servlet-name>
+        <servlet-class>com.studentmanagement.RemoveStudent</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>java</servlet-name>
@@ -73,8 +76,10 @@
         <servlet-name>UpdateStudentServlet</servlet-name>
         <url-pattern>/UpdateStudentServlet</url-pattern>
     </servlet-mapping>
-    
-    
+    <servlet-mapping>
+        <servlet-name>RemoveStudent</servlet-name>
+        <url-pattern>/RemoveStudent</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
